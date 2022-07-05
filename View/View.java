@@ -22,7 +22,7 @@ public class View {
                 """;
         System.out.println(menu);
         System.out.print("Wybór: ");
-        int choiceMenu = NumberFromUser.validation(1,6);
+        int choiceMenu = NumberFromUser.validation(1,5);
 
        Navigation.navigation(taskListControl,choiceMenu);
     }
